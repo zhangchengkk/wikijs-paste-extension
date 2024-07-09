@@ -21,7 +21,7 @@
         "file://*"
         // "http://10.0.0.1:13000/*"
       ],
-      "js": ["scripts/jquery.js", "scripts/work.js"]
+      "js": ["scripts/jquery.js", "scripts/content.js"]
     }
   ],
   "permissions": ["contextMenus", "clipboardRead", "clipboardWrite", "offscreen"]
