@@ -79,6 +79,7 @@ function getDataFromEditableDiv() {
   document.execCommand("Paste");
 
   result = divEl.innerHTML;
+
   document.body.removeChild(divEl)
   return result;
 }

@@ -44,6 +44,8 @@ async function getClipboardData() {
     target: "offscreen-doc"
   });
 
+  console.log('=== clipboard data:', clipboardData)
+
   chrome.tabs.query(
     {
       active: true,
