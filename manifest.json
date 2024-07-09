@@ -18,8 +18,8 @@
     {
       
       "matches": [
-        "file://*"
-        // "http://10.0.0.1:13000/*"
+        "file://*",
+        "http://10.0.0.1:13000/*"
       ],
       "js": ["scripts/jquery.js", "scripts/content.js"]
     }
